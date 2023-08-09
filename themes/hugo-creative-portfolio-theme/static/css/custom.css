@@ -1,0 +1,57 @@
+/* Custom CSS styles */
+.slide-show{
+  overflow: hidden;
+}
+
+.slides-list3{
+  /*remove os estilos da lista*/
+  list-style-type: none;
+  margin: 10px 0px;
+  padding: 0;
+  --total-items: 3;
+  --selected-item: 0;
+  width: calc(var(--total-items) * 100%);
+  position: relative;
+  left: calc(var(--selected-item) * -104%);
+
+  /* 
+	deixa todos os itens da lista
+	na horizontal e todos com a
+	mesma largura
+  */
+  transition: left 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr; 
+}
+
+.slide-controller3:nth-child(1):checked ~ .slide-show .slides-list3{--selected-item: 0;}
+.slide-controller3:nth-child(2):checked ~ .slide-show .slides-list3{--selected-item: 1;}
+.slide-controller3:nth-child(3):checked ~ .slide-show .slides-list3{--selected-item: 2;}
+
+.slides-list4{
+  /*remove os estilos da lista*/
+  list-style-type: none;
+  margin: 10px 0px;
+  padding: 0;
+  --total-items: 4;
+  --selected-item: 0;
+  width: calc(var(--total-items) * 100%);
+  position: relative;
+  left: calc(var(--selected-item) * -104%);
+
+  /* 
+	deixa todos os itens da lista
+	na horizontal e todos com a
+	mesma largura
+  */
+  transition: left 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr; 
+}
+
+.slide-controller4:nth-child(1):checked ~ .slide-show .slides-list4{--selected-item: 0;}
+.slide-controller4:nth-child(2):checked ~ .slide-show .slides-list4{--selected-item: 1;}
+.slide-controller4:nth-child(3):checked ~ .slide-show .slides-list4{--selected-item: 2;}
+.slide-controller4:nth-child(4):checked ~ .slide-show .slides-list4{--selected-item: 3;}
