@@ -57,17 +57,17 @@ googleAnalytics = ""
   url = "contact/"
 
   [params.social]
-  facebook      = "full page or profile url in facebook"
+  facebook      = "https://www.facebook.com/profile.php?id=61550288155616&mibextid=ZbWKwL"
   #googleplus    = "full profile url in googleplus"
   email         = "griidpro@gmail.com"
-  twitter       = "full profile url in twitter"
-  linkedin      = "full profile url in linkedin"
+  #twitter       = "full profile url in twitter"
+  #linkedin      = "full profile url in linkedin"
   #stackoverflow = "full profile url in stackoverflow"
-  instagram     = "full profile url in instagram"
+  instagram     = "https://instagram.com/griid.excel?igshid=YWYwM2I1ZDdmOQ=="
   #github        = "full profile url in github"
   #gitlab        = "full profile url in gitlab"
   #youtube       = "full profile url in youtube"
-  whatsapp      = "wa.me service link"
+  whatsapp      = "https://wa.me/message/RFBQKDHYXIP6K1"
 
 [markup]
   [markup.goldmark]
